@@ -1,4 +1,4 @@
-package repositories;
+package com.kaykamaral.SpringStudies.repositories;
 
 import com.kaykamaral.SpringStudies.entities.User;
 import org.springframework.data.jpa.repository.JpaRepository;

@@ -1,11 +1,11 @@
-package config;
+package com.kaykamaral.SpringStudies.config;
 
 import com.kaykamaral.SpringStudies.entities.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
-import repositories.UserRepository;
+import com.kaykamaral.SpringStudies.repositories.UserRepository;
 
 import java.util.Arrays;
 
