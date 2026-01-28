@@ -40,6 +40,10 @@ public class OrderItem implements Serializable {
     public Integer getQuantity() { return quantity; }
     public Double getPrice() { return price; }
 
+    public Double getSubTotal() {
+        return price * quantity;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;

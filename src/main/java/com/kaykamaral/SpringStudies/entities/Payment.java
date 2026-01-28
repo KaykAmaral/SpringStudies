@@ -1,6 +1,7 @@
 package com.kaykamaral.SpringStudies.entities;
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.Entity;
 import jakarta.persistence.MapsId;
 import jakarta.persistence.OneToOne;
@@ -19,6 +20,7 @@ public class Payment implements Serializable {
     private Integer id;
     private Instant moment;
 
+    @JsonIgnore
     @OneToOne
     @MapsId
     private Order order;
